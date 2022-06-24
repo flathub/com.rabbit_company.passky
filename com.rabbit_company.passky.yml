@@ -34,8 +34,8 @@ modules:
     subdir: main
     sources:
       - type: archive
-        url: https://github.com/Rabbit-Company/Passky-Desktop/archive/v6.0.2.tar.gz
-        sha256: 4cfa34116e5f4aee00ed88aadc3b62767ab6ca6c930f5a532335756e31e9b015
+        url: https://github.com/Rabbit-Company/Passky-Desktop/archive/v6.1.0.tar.gz
+        sha256: 08634b23102f2a8dcb68c746e929c523eecb7650e978346d948068706b333cca
         dest: main
       - generated-sources.json
       - type: file

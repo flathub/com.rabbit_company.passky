@@ -22,6 +22,14 @@
     <developer_name>Rabbit Company LLC</developer_name>
 
     <releases>
+      <release version="6.1.0" date="2022-06-24">
+        <description>
+          <p>Added support for Firefox and Chromium password managers</p>
+          <p>Added Japanese, Traditional Chinese, Spanish and Portuguese</p>
+          <p>Updated Simplified Chinese, Russian, French, German, Arabic, Swedish, Polish and Ukrainian</p>
+          <p>Updated Electron to v19.0.0</p>
+        </description>
+      </release>
       <release version="6.0.2" date="2022-03-04">
         <description>
           <p>Added Indonesian, Korean and Ukrainian languages</p>
