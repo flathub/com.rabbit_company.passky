@@ -22,6 +22,18 @@
     <developer_name>Rabbit Company LLC</developer_name>
 
     <releases>
+      <release version="6.3.0" date="2022-06-28">
+        <description>
+          <p>Website icons can now be toggled</p>
+          <p>Improved visual performance of toggling buttons</p>
+        </description>
+      </release>
+      <release version="6.2.0" date="2022-06-25">
+        <description>
+          <p>Added Monokai, Solarized Dark and Tokyo Night themes</p>
+          <p>Changed Light, Gray, Blue, Dracula and Dark themes</p>
+        </description>
+      </release>
       <release version="6.1.0" date="2022-06-24">
         <description>
           <p>Added support for Firefox and Chromium password managers</p>
