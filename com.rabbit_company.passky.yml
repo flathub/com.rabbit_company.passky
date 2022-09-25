@@ -11,8 +11,7 @@ command: run.sh
 separate-locales: false
 finish-args:
   - --share=ipc
-  - --socket=wayland
-  - --socket=fallback-x11
+  - --socket=x11
   - --socket=pulseaudio
   - --share=network
   - --device=dri
@@ -34,8 +33,8 @@ modules:
     subdir: main
     sources:
       - type: archive
-        url: https://github.com/Rabbit-Company/Passky-Desktop/archive/v7.0.0.tar.gz
-        sha256: f950f622b8cb1600bd70a2b4c461c11de0dbfe607c840a98acdb86e9aae0be47
+        url: https://github.com/Rabbit-Company/Passky-Desktop/archive/v7.1.0.tar.gz
+        sha256: 95954392724bfb898344ac2313949597eaed17439e3ae96599e1ec72c5614d20
         dest: main
       - generated-sources.json
       - type: file
