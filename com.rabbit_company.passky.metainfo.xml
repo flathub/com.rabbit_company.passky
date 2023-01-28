@@ -20,6 +20,13 @@
 	<developer_name>Rabbit Company LLC</developer_name>
 
 	<releases>
+		<release version="8.1.1" date="2023-01-28">
+			<description>
+				<p>Fixed design on login and register page on small screens</p>
+				<p>Updated Hungarian and Japanese</p>
+				<p>Updated Electron</p>
+			</description>
+		</release>
 		<release version="8.0.1" date="2022-12-14">
 			<description>
 				<p>Added debug mode and Hungarian language</p>
