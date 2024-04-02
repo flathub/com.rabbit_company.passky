@@ -1,12 +1,12 @@
 app-id: com.rabbit_company.passky
 branch: stable
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '21.08'
+base-version: '23.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node16
+  - org.freedesktop.Sdk.Extension.node20
 command: run.sh
 separate-locales: false
 finish-args:
@@ -18,7 +18,7 @@ finish-args:
   - --filesystem=xdg-documents
   - --filesystem=xdg-download
 build-options:
-  append-path: /usr/lib/sdk/node16/bin
+  append-path: /usr/lib/sdk/node20/bin
   env:
     NPM_CONFIG_LOGLEVEL: info
 modules:
@@ -28,13 +28,13 @@ modules:
       env:
         XDG_CACHE_HOME: /run/build/passky/flatpak-node/cache
         npm_config_cache: /run/build/passky/flatpak-node/npm-cache
-        npm_config_nodedir: '/usr/lib/sdk/node16'
+        npm_config_nodedir: '/usr/lib/sdk/node20'
         npm_config_offline: 'true'
     subdir: main
     sources:
       - type: archive
-        url: https://github.com/Rabbit-Company/Passky-Desktop/archive/v8.1.1.tar.gz
-        sha256: 6c60d4e7d206b7b0e275bfc02ae4a1948904dd3ebfc0b566bd1b0dafe7bffca0
+        url: https://github.com/Rabbit-Company/Passky-Desktop/archive/v8.1.2.tar.gz
+        sha256: 8165a00aae817734a61096e7d69e810f4102185ec49d1fdff54696bd0c96eae9
         dest: main
       - generated-sources.json
       - type: file
